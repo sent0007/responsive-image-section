@@ -24,6 +24,7 @@ body {
 section {
   background-color: #e2e2e2;
   margin: 0 auto;
+  padding-bottom: 2em;
 }
 
 .container {
@@ -40,12 +41,20 @@ section {
   padding: 2rem 1rem;
 }
 
+.content h1 {
+  margin-top: 1rem;
+}
+
 a {
   padding: .5em .75em;
   background-color: #555;
   color: #fff;
   border-radius: 4px;
   text-decoration: none;
+}
+
+a:hover {
+  background-color: grey;
 }
 
 .img-container {
@@ -92,6 +101,15 @@ a {
   .img-container {
     width: 50%;
     padding-top: 1em;
+  }
+
+  section {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .content h1 {
+    margin-top: 0;
   }
 
 }
